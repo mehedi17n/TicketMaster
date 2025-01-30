@@ -24,12 +24,12 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, DiscoverActivity::class.java))
         }
 
-        findViewById<Button>(R.id.button_pre_purchase).setOnClickListener {
-            startActivity(Intent(this, PrePurchaseActivity::class.java))
-        }
-
-        findViewById<Button>(R.id.button_purchase).setOnClickListener {
-            startActivity(Intent(this, PurchaseActivity::class.java))
-        }
+//        findViewById<Button>(R.id.button_pre_purchase).setOnClickListener {
+//            startActivity(Intent(this, PrePurchaseActivity::class.java))
+//        }
+//
+//        findViewById<Button>(R.id.button_purchase).setOnClickListener {
+//            startActivity(Intent(this, PurchaseActivity::class.java))
+//        }
     }
 }
