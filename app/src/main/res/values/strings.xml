@@ -32,4 +32,15 @@
     <string name="venue_id">KovZ917AtFi</string>
     <string name="client_name_id">Wyzrfriends25</string>
     <string name="api_key">C1pkjWYZmFChCKF2NO0K0mOsD11pZHpA</string>
+
+    <string name="artist">Artist</string>
+    <string name="venue">Venue</string>
+    <string name="launch_retail_tickets">Launch Retail + Tickets</string>
+    <string name="enter_market_name">Enter market name</string>
+    <string name="retail_sdks">Retail SDKs</string>
+    <string name="tickets_sdks">Tickets SDKs</string>
+    <string name="enter_region">Enter region</string>
+    <string name="discover">Discover</string>
+    <string name="pre_purchase">Pre-Purchase</string>
+    <string name="purchase">Purchase</string>
 </resources>

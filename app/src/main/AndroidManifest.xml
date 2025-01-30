@@ -13,10 +13,7 @@
         android:theme="@style/Theme.TicketMaster"
         tools:targetApi="31">
         <activity
-            android:name=".PurchaseActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PrePurchaseActivity"
+            android:name=".HomeActivity"
             android:exported="true"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -25,8 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Activity that will be launched when requesting LoginIntent-->
+        <activity
+            android:name=".DiscoverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PurchaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrePurchaseActivity"
+            android:exported="true" />
         <activity
             android:name="com.ticketmaster.authenticationsdk.internal.modernaccounts.presentation.ModernAccountsLoginScreen"
             android:exported="true"
@@ -43,7 +47,6 @@
                 <data android:scheme="psdkpreprodschemecommon" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
